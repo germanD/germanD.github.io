@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE html 
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=ISO-8859-1" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>Concurrent Data Structures Linked in Time</title>
+</head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72817827-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="navcontainer">
+      <a href="../"> Back to Germ&aacute;n's Home</a>
+    </div>
+  </div>
+
+  <div id="content">
+    <div id="main-column">
+     
+      <div id="paper">Concurrent Data Structures Linked in Time</div>
+      <h1></h1>
+    <div id="authors">
+      <a href="http://delbian.co/">
+	 Germ&aacute;n Andr&eacute;s Delbianco</a> &#8193;
+     <a href="http://ilyasergey.net/">Ilya Sergey</a> &#8193;
+     <a href="http://software.imdea.org/~aleks/">
+      Aleks Nanevski</a> &#8193;
+     <a href="http://software.imdea.org/~ab/">Anindya Banerjee</a>
+    </div>
+
+    <div id ="abstract"> Arguments about linearizability of a
+    concurrent data structure are typically carried out by specifying
+    the linearization points of the data structure's procedures.
+    Proofs that use such specifications are often cumbersome as the
+    linearization points' position in time can be <i>dynamic</i>,
+    <i>non-local</i> and <i>non-regional</i>: it can depend on the
+    interference, run-time values and events from the past, or even
+    future, appear in procedures other than the one considered, and
+    might be only determined after the considered procedure has
+    terminated.
+
+    In this paper we propose a new method, based on a Hoare-style
+    logic, for reasoning about concurrent objects with such
+    linearization points. We embrace the dynamic nature of
+    linearization points, and encode it as part of the data
+    structure's <i>auxiliary state</i>, so that it can be dynamically
+    modified in place by auxiliary code, as needed when some
+    appropriate run-time event occurs.
+
+    We name the idea <i>linking-in-time</i>, because it reduces
+    temporal reasoning to spatial reasoning. For example, modifying a
+    temporal position of a linearization point can be modeled
+    similarly to a pointer update in a heap.  We illustrate the method
+    by verifying an intricate optimal snapshot algorithm due to
+    Jayanti.
+
+    </div>
+   <p> A draft of our submission is avaliable from <a href=
+   "https://arxiv.org/pdf/1604.08080v4.pdf"> arXiv.</a>
+   </p>
+   <p>
+   The Coq developments from the paper (FCSL libraries + Jayanti's
+   Snapshot Algorithm Mechanization) can be downloaded
+   from <a href="./relink-fcsl-v3.tgz"> here.</a> You will
+   need <a href="https://coq.inria.fr/download"> Coq 8.5pl3</a>
+   together with the
+   appropriate <a href="https://math-comp.github.io/math-comp/">MathComp/SSreflect
+   1.6 </a> libraries.</p>
+
+  
+   </div> 
+  <div id="footer">
+    <div>
+    <a href="http://software.imdea.org/" target="_blank">
+    <img src="../logo-footer.png" alt="IMDEA Software Institute" />
+    </a>
+    </div>
+ </div>
+ </div>
+</body>
+</html>
