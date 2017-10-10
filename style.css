@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    font-size : 16px;
+    font-size : 14px;
     font-family: trebuchet, arial, helvetica, sans-serif;
     background-color: #FFF;
     color: #000;
@@ -17,7 +17,7 @@ h1
     font-weight : bold;
     font-size : 19px;
     font-family : georgia, serif;
-    color : Navy;
+    color : DarkSlateGray;
 }
 
 h2 
@@ -27,15 +27,14 @@ h2
     font-weight : italic;
     font-size : 17px;
     font-family : georgia, serif;
-    color : SlateBlue;
+    color : DimGray;
 }
 
 p
 { 
     margin : 0;
-    padding : 1px 0 10px 0;
+    padding : 10px 0 10px 0;
 }
-
 
 a:visited, a:link
 {
@@ -52,7 +51,7 @@ a:hover
 ul 
 {
     padding : 0;
-    margin : 0 0 0 20px;
+    margin : 10px 0 0 20px;
 }
 
 ol li
@@ -69,7 +68,7 @@ img
 #wrapper 
 {
     margin : 0 auto;
-    width : 800px;
+    width : 1000px;
     border : 0px solid #CCC;
 }
 
@@ -86,6 +85,7 @@ img
 
 #footer 
 {
+    float : center;
     background : #FFF;
     border-top : 1px solid #CCC;
     padding : 5px 5px 5px 5px;
@@ -104,7 +104,7 @@ img
     position : fixed;
     z-index : 1;
     bottom : 0px;
-    width : 750px;
+    width : 770px;
 }
 
 #footnote a
@@ -114,20 +114,20 @@ img
     text-decoration : none;
 }
 
-#main-column
+#right-column
 {
     background: #FFFFFF url(background.png) repeat-x top left;
-    width : 750px;
+    width : 600px;
     padding : 0 10px 10px;
-    float : center;
+    float : right;
 }
 
-/* #left-column  */
-/* { */
-/*     background: #FFFFFF url(background.png) repeat-x top left; */
-/*     width : 250px; */
-/*     float : left; */
-/* } */
+#left-column 
+{
+    background: #FFFFFF url(background.png) repeat-x top left;
+    width : 300px;
+    float : left;
+}
 
 #navcontainer
 {
@@ -150,38 +150,19 @@ img
     color : #000000;
 }
 
-#paper 
+#myname 
 {
     padding : 10px 0 0 0;
     font-weight : bold;
-    font-size : 34px;
-    color : #000;
-    text-align: center;
+    font-size : 32px;
+    color : #000;    
 }
 
-#abstract
+#degree 
 {
-    float: center;
-    margin:  10px 105px  50px 105px;
-    padding : 12px 0 0 0;
-    font-weight : italics;
-    font-size : 12qpx;
-    color : #000;
-    text-align:justify;
-    text-justify:inter-word;
-    width:580px;
-}
-
-#authors
-{
-    float: center;
-    margin:  12px 105px  50px 105px;
-    padding : 10px 0 0 0;
-    font-size : 20qpx;
-    color : #000;
-    text-align:center;
-    text-justify:inter-word;
-    width:600px;
+    padding : 0px 0 0 0;
+    font-size : 18px;
+    color : Teal;
 }
 
 #picture 
