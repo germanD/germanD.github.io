@@ -1,0 +1,211 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-size : 14px;
+    font-family: trebuchet, arial, helvetica, sans-serif;
+    background-color: #FFF;
+    color: #000;
+    text-align : left;
+}
+
+h1 
+{ 
+    margin : 10px 0px 5px 0px;
+    padding-bottom : 5px;
+    border-bottom : 1px solid #CCC;
+    font-weight : bold;
+    font-size : 19px;
+    font-family : georgia, serif;
+    color : Navy;
+}
+
+h2 
+{ 
+    margin : 10px 0px 5px 0px;
+    padding-bottom : 5px;
+    font-weight : italic;
+    font-size : 17px;
+    font-family : georgia, serif;
+    color : SlateBlue;
+}
+
+p
+{ 
+    margin : 0;
+    padding : 1px 0 10px 0;
+}
+
+
+a:visited, a:link
+{
+    color : #000;
+    text-decoration : underline;
+}
+
+a:hover 
+{
+    color : #954;
+    text-decoration : underline;
+}
+
+ul 
+{
+    padding : 0;
+    margin : 0 0 0 20px;
+}
+
+ol li
+{
+    padding : 0;
+    margin : 0 0 10px 0;
+}
+
+img 
+{ 
+    border : 0px;
+}
+
+#wrapper 
+{
+    margin : 0 auto;
+    width : 800px;
+    border : 0px solid #CCC;
+}
+
+#header
+{
+    margin : 0;
+}
+
+#content 
+{
+    margin : 0;
+    padding : 0;
+}
+
+#footer 
+{
+    background : #FFF;
+    border-top : 1px solid #CCC;
+    padding : 5px 5px 5px 5px;
+    clear : both;
+}
+
+#footnote 
+{
+    text-align: center;
+    color: #FFF;
+    background : #FFF;
+    border-top : 1px solid #CCC;
+    border-bottom: 3px solid #7D9AB0; 
+    padding : 5px 5px 5px 5px;
+    clear : both;
+    position : fixed;
+    z-index : 1;
+    bottom : 0px;
+    width : 750px;
+}
+
+#footnote a
+{
+    color : #FFF;
+    font-weight : bold;
+    text-decoration : none;
+}
+
+#main-column
+{
+    background: #FFFFFF url(background.png) repeat-x top left;
+    width : 750px;
+    padding : 0 10px 10px;
+    float : center;
+}
+
+/* #left-column  */
+/* { */
+/*     background: #FFFFFF url(background.png) repeat-x top left; */
+/*     width : 250px; */
+/*     float : left; */
+/* } */
+
+#navcontainer
+{
+    background : #FFF;
+    padding : 10px 10px 10px 0;
+    text-align : right;
+    color : #000000;
+}
+
+#navcontainer a:visited, 
+#navcontainer a:link
+{
+    text-decoration : none;
+    color : #000000;
+}
+
+#navcontainer a:hover
+{
+    text-decoration : underline;
+    color : #000000;
+}
+
+#paper 
+{
+    padding : 10px 0 0 0;
+    font-weight : bold;
+    font-size : 32px;
+    color : #000;
+    text-align: center;
+}
+
+#abstract
+{
+    float: center;
+    margin:  10px 105px  50px 105px;
+    padding : 12px 0 0 0;
+    font-weight : italics;
+    font-size : 12qpx;
+    color : #000;
+    text-align:justify;
+    text-justify:inter-word;
+    width:540px;
+}
+
+#authors
+{
+    float: center;
+    margin:  12px 105px  50px 105px;
+    padding : 10px 0 0 0;
+    font-size : 26qpx;
+    color : #000;
+    text-align:center;
+    text-justify:inter-word;
+    width:550px;
+}
+
+
+#picture 
+{
+    text-align : center;
+}
+
+#picture img
+{ 
+    border : 1px solid #CCC;
+}
+
+.boxed
+{
+    background : #FFF;
+    border : 0px;
+    padding : 15px;
+    margin : 10px;
+}
+
+a.named:hover
+{
+    color : inherit;
+    text-decoration : none;
+}
+

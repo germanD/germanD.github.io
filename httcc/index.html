@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE html 
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=ISO-8859-1" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>HTTcc</title>
+</head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72817827-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="navcontainer">
+      <a href="../"> Back to Germ&aacute;n's Home</a>
+    </div>
+  </div>
+
+  <div id="content">
+    <div id="main-column">
+     
+      <div id="paper">Hoare-Style Reasoning with (Algebraic) Continuations</div>
+    
+      <h1></h1>
+        <div id="authors">
+	  Germ&aacute;n Andr&eacute;s Delbianco &#8193; &#8193;
+	  Aleks Nanevski
+        </div>
+
+      <div id ="abstract"> Continuations are programming abstractions
+	that allow for manipulating the "future" of a
+	computation. Amongst their many applications, they enable
+	implementing unstructured program flow through higher-order
+	control operators such as callcc.  In this paper we develop a
+	Hoare-style logic for the verification of programs with
+	higher-order control, in the presence of dynamic state. This
+	is done by designing a dependent type theory with first class
+	callcc and abort operators, where pre- and postconditions of
+	programs are tracked through types. Our operators are
+	algebraic in the sense of Plotkin and Power, and Jaskelioff,
+	to reduce the annotation burden and enable verification by
+	symbolic evaluation. We illustrate working with the logic by
+	verifying a number of characteristic examples. </div>
+
+   <p> The ICFP'13 paper can be downloaded
+   from <a href="http://dl.acm.org/authorize?6842005"> here</a></p>
+     
+   <p> The HTTcc source files and examples are availabale
+     from <a href="./httcc-v.1.1.tgz"> here</a>. You will need to have
+     <a href="http://coq.inria.fr/"> Coq 8.6</a> installed, together
+     with
+     the <a href="https://math-comp.github.io/math-comp/">MathComp/SSreflect
+     v. 1.6 </a> libraries.</p>
+  </div>
+
+  <div id="footer">
+    <div>
+    <a href="http://software.imdea.org/" target="_blank">
+    <img src="../logo-footer.png" alt="IMDEA Software Institute" />
+    </a>
+    </div>
+ </div>
+ <br><br>
+ </div>
+</body>
+</html>
