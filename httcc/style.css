@@ -3,7 +3,7 @@ body
     margin: 0;
     padding: 0;
     font-size : 14px;
-    font-family: trebuchet, arial, helvetica, sans-serif;
+    font-family: verdana, arial, helvetica, sans-serif;
     background-color: #FFF;
     color: #000;
     text-align : left;
@@ -164,8 +164,8 @@ img
     float: center;
     margin:  10px 105px  50px 105px;
     padding : 12px 0 0 0;
-    font-weight : italics;
-    font-size : 12qpx;
+    font-weight : italic;
+    font-size : 13px;
     color : #000;
     text-align:justify;
     text-justify:inter-word;

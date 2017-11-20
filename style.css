@@ -2,8 +2,8 @@ body
 {
     margin: 0;
     padding: 0;
-    font-size : 13px;
-    font-family: verdana;
+    font-size : 14px;
+    font-family: verdana, helvetica;
     background-color: #FFF;
     color: #000;
     text-align : left;
@@ -36,10 +36,19 @@ p
     padding : 10px 0 10px 0;
 }
 
+pp
+{ 
+    line-height: 150%;
+    margin : 0;
+    padding : 10px 0 10px 0;
+
+}
+
+
 nn
 {
     font-weight : bold;
-    font-size : 14 px;
+    font-size : 15 px;
     font-family : verdana;
 }
 
@@ -47,7 +56,6 @@ nn
 dd
 {
     margin : 0;
-    padding : 10px 0 10px 0;
     font-size:12px;
     font-family: verdana;
     background-color: #FFF;
@@ -135,7 +143,7 @@ img
 
 #right-column
 {
-    background: #FFFFFF url(background.png) repeat-x top left;
+    background: #FFFFFF  repeat-x top left;
     width : 600px;
     padding : 0 10px 10px;
     float : right;
@@ -143,7 +151,7 @@ img
 
 #left-column 
 {
-    background: #FFFFFF url(background.png) repeat-x top left;
+    background: #FFFFFF  repeat-x top left;
     width : 300px;
     float : left;
 }
@@ -198,8 +206,8 @@ img
 {
     background : #FFF;
     border : 0px;
-    padding : 15px;
-    margin : 10px;
+    padding : 0px;
+    margin : 5px;
 }
 
 a.named:hover
