@@ -2,8 +2,8 @@ body
 {
     margin: 0;
     padding: 0;
-    font-size : 14px;
-    font-family: verdana, helvetica;
+    font-size : 15px;
+    font-family: 'Noto Sans', helvetica, sans-serif;
     background-color: #FFF;
     color: #000;
     text-align : left;
@@ -29,6 +29,18 @@ h2
     font-family : georgia, serif;
     color : DimGray;
 }
+
+g1
+{ 
+    margin: 0;
+    padding: 0;
+    font-size : 15px;
+    font-family: 'Noto Sans', helvetica, sans-serif;
+    background-color: #FFF;
+    color: #000;
+    text-align : left;
+}
+
 
 p
 { 
@@ -79,6 +91,7 @@ ul
 {
     padding : 0;
     margin : 10px 0 0 20px;
+    text-align: left;
 }
 
 ol li
